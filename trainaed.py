@@ -130,8 +130,8 @@ def train(train_loader,dev_loader,out_dir,vocab_size,ctc_weight):
             break
    
 if __name__ == '__main__':
-    train_dir = 'E://asr1//github//aed//data//chiwav//trainwav//'
-    dev_dir = 'E://asr1//github//aed//data//chiwav//testwav//'
+    train_dir = './/trainwav//'
+    dev_dir = './/testwav//'
   
     train_set=audiodataset(train_dir)
     dev_set=audiodataset(dev_dir)
